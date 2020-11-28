@@ -1,0 +1,421 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+}
+html, body {
+  font-family: 'Roboto', sans-serif; 
+}
+::-webkit-scrollbar{
+  width: 0;
+}
+.menu1{
+  margin-top: 10px;
+  margin-left: 0px;
+  padding: 0px;
+  border: 0px;
+  width: 20px;
+  height: 3px;
+  background-color: #6fa5f6;
+}
+.icon1, .icon2{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  margin-top: 7px;
+  width: 20px;
+  height: 3px;
+  background-color: #6fa5f6;
+}
+.icon2{
+  margin-top: 4px;
+}
+.navmenu{
+  width: 300px;
+}
+.container-1{
+  /* Style for "background" */
+  width: 100%;
+  height: 84px;
+  background-color: #eff1f2;
+}
+.container-1 input[type=search]{
+  /* Style for "Поиск" */
+  color: #91969a;
+  font-size: 14px;
+  font-weight: 400;
+  font-variant: small-caps;
+  /* Text style for "Поиск" */
+  letter-spacing: 1.83px;
+  /* Style for "Rounded Re" */
+  width: 263px;
+  height: 42px;
+  border-radius: 10px;
+  border: 1px solid #e0e3e5;
+  background-color: #ffffff;
+  margin-top: 21px;
+  margin-left: 20px;
+}
+.class1{
+  /* Style for "Меню" */
+  height: 13px;
+  color: #3f4143!important;
+  font-size: 18px;
+  font-weight: 700;
+  font-variant: small-caps;
+  /* Text style for "Меню" */
+  letter-spacing: 0.18px;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+a:hover{
+  color: #609cf5!important;
+  text-decoration: none;
+}
+.i1{
+  /* Style for "Rectangle" */
+  width: 55px;
+  height: 3px;
+  background-color: #609cf5;
+  margin-top: 13px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+.class2 {
+  /* Style for "Главная" */
+  height: 10px;
+  color: #46484a!important;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  /* Text style for "Главная" */
+  letter-spacing: 0.14px;
+  margin-top: 30px;
+  margin-left: 20px;
+  padding: 0px;
+}
+.i2{
+  /* Style for "Rectangle" */
+  width: 263px;
+  height: 2px;
+  background-color: #e0e3e5;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.i3{
+  /* Style for "Rectangle" */
+  width: 195px;
+  height: 3px;
+  background-color: #609cf5;
+  margin-top: 6px;
+  margin-left: 20px;
+  margin-bottom: 49px;
+}
+.class3{
+  /* Style for "Информация" */
+  color: #212325!important;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.18px;
+  text-transform: lowercase;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+.mainpic{
+  /* Style for "Rounded Re" */
+  margin-left: 20px;
+  background-size: cover;
+  margin-top: 20px;
+}
+.mainpic img {
+  border-radius: 5px;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  background-size: 100% auto
+  }
+.mainpic img:hover{
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  }
+.text1{
+  /* Style for "Lorem ipsu" */
+  color: #494c4d;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 19px;
+  margin-left: 20px;
+  padding: 0px;
+}
+.btn1{
+  /* Style for "Rounded Re" */
+  width: 120px;
+  height: 50px;
+  border: 2px solid #609cf5;
+  background-color: rgba(0, 0, 0, 0);
+  /* Style for "Далее" */
+  color: #609cf5;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.83px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 13px;
+  transition: ease;
+  transition-duration: 1000ms;
+  margin-top: 34px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.btn1:hover{
+  background-color: #b8c7e6;
+  cursor: pointer;
+}
+.i4{
+  /* Style for "Rectangle" */
+  width: 263px;
+  height: 2px;
+  background-color: #e0e3e5;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.i5{
+  /* Style for "Rectangle" */
+  width: 83px;
+  height: 3px;
+  background-color: #609cf5;
+  margin-top: 6px;
+  margin-left: 20px;
+  margin-bottom: 29px;
+}
+
+.contacts{
+  margin-top: 46px;
+  margin-bottom: 0px;
+  padding-right: 25px;
+  display: inline-block;
+  /* Style for "test@itpro" */
+  color: #494c4d;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1.83px;
+  text-decoration: underline;
+}
+.first{
+  margin-left: 20px;
+  color: #609cf5;
+  font-size: 18px;
+}
+.second{
+  text-decoration: none;
+}
+.third{
+  text-decoration: none;
+  width: 219px;
+  height: 40px;
+  margin-bottom: 30px;
+}
+.fa-home, .footer2{
+  position: relative;
+  top: -20px;
+}
+.copy1{
+  margin-right: 10px;
+  margin-bottom: 50px;
+  font-size: 12px;
+}
+.header{
+  /* Style for "СМИ портал" */
+  color: #212325;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: lowercase;
+  margin-top: 30px;
+}
+.i6{
+  /* Style for "Rectangle" */
+  width: 100%;
+  height: 3px;
+  background-color: #609cf5;
+  margin-top: 12px;
+}
+.display-1{
+  /* Style for "Работа меч" */
+  color: #212325;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-top: 70px;
+  padding: 0px;
+}
+.display-2{
+  /* Style for "Что из себ" */
+  color: #212325;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.display-3{
+  /* Style for "Lorem ipsu" */
+  color: #494c4d;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.14px;
+  margin: 0px,23px,0px,23px;
+}
+.btnmain{
+  /* Style for "Rounded Re" */
+  width: 196px;
+  height: 50px;
+  border: 2px solid #609cf5;
+  background-color: rgba(0, 0, 0, 0);
+  margin-left: 0px;
+  margin-top: 36px;
+}
+.mainpic2{
+  /* Style for "Rounded Re" */
+  margin-top: 30px;
+  margin-left: 0px;
+  background-size: cover;
+  overflow: hidden;
+}
+.i7{
+  /* Style for "Rectangle" */
+  width: 100%x;
+  height: 2px;
+  background-color: #e0e3e5;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.display-4{
+  /* Style for "Последние" */
+  color: #212325;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.24px;
+}
+.i8{
+  /* Style for "Rectangle" */
+  width: 338px;
+  height: 3px;
+  background-color: #609cf5;
+  margin-top: 3px;
+  margin-bottom: 40px;
+}
+.btnmain2{
+  margin-left: 0px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.mainpic3{
+  /* Style for "Rounded Re" */
+  margin-top: 0px;
+  margin-left: 25px;
+  margin-right: 25px;
+  background-size: cover;
+  overflow: hidden;
+}
+.display-5{
+  /* Style for "Lorem ipsu" */
+  color: #212325;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.text3{
+  /* Style for "Lorem ipsu" */
+  color: #494c4d;
+  font-size: 14px;
+  font-weight: 400;
+}
+.mainpic4{
+  margin-top: 25px;
+}
+.mainpic5{
+  margin-top: 60px;
+}
+.btnmain3{
+  /* Style for "Rounded Re" */
+  width: 80px;
+  height: 34px;
+  /* Style for "Детали" */
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.31px;
+  text-transform: uppercase;
+  margin-left: 0px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  padding-top: 7px;
+}
+.mainpic6 img{
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+  background-size: 100% auto;
+  margin: 60px 0px 0px 25px;
+  margin-bottom: 0px;
+  }
+.mainpic6 img:hover{
+  box-shadow:0 0 25px #4b555a;
+  } 
+.i9{
+    /* Style for "Rectangle" */
+  width: 159px;
+  height: 3px;
+  background-color: #609cf5;
+  }
+.footer1{
+  margin-top: 0px;
+  float: left;
+  margin-left: 80px;
+}
+.footer2{
+  position: relative;
+  top: 60px;
+  margin-left: 0px;
+}
+@media(max-width: 768px){
+  .navmenu{ 
+    width: 150px;
+  }
+  .container-1 input[type=search]{
+    width: 110px;
+  }
+  .menu img{
+    width: 110px;
+    }
+  .contacts i{
+    margin-left: 50px;
+  }
+  .second, .third{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    width: 140px;
+  }
+  .copy1{
+    padding-top:30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
